@@ -1,0 +1,24 @@
+{
+  "name": "cpsc4125_mod2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/SpecOpsRising/CPSC4125_MOD2#readme",
+  "bugs": {
+    "url": "https://github.com/SpecOpsRising/CPSC4125_MOD2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpecOpsRising/CPSC4125_MOD2.git"
+  },
+  "license": "ISC",
+  "author": "Falls Jonathan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
