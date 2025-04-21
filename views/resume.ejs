@@ -43,5 +43,24 @@
             <div class="col">
             </div>
         </div>
+        <div>
+            <form action="/add" method="POST">
+                <input type="text" name="newTask" placeholder="add a new Task"/>
+                <button>
+                    add task
+                </button>
+            </form>
+        </div>
+        <div>
+            <form action="/done" method="POST">
+                <% for(var i = 0; i < tasks.length; i++){ %>
+                    <li><input type="checkbox" name="task" value="<%= tasks[i] %>"/><%= tasks[i] %></li>
+                <% }%>
+                <button>
+                    Complete task
+                </button>
+
+            </form>
+        </div>
     </body>
 </html>
